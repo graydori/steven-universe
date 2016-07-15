@@ -1,0 +1,28 @@
+{
+  "name": "steven-universe",
+  "version": "1.0.0",
+  "description": "Steven Universe Adventure Game",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graydori/steven-universe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/graydori/steven-universe/issues"
+  },
+  "homepage": "https://github.com/graydori/steven-universe#readme",
+  "dependencies": {
+    "firebase": "^3.2.0",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  },
+  "devDependencies": {
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2"
+  }
+}
