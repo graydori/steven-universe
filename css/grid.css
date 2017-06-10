@@ -1,0 +1,66 @@
+.row-1 { /* first star */
+        padding-left: 85%;
+    }
+    
+.row-2 { /* second star */
+        padding-left: 45%;
+    }
+    
+.row-3 { /* third star */
+       padding-left: 90%;
+    }
+    
+.row-4 { /* forth star */
+        padding-left: 60%;
+    }
+    
+.row-5 { /* title row "Steven Universe" */
+        
+    }
+    
+.row-6 { /* empty row */
+        
+    }
+    
+.row-7 { /* fifth star */
+        
+    }
+    
+.row-8 { /* sixth star */
+        
+    }
+    
+.row-9 { /* seventh star */
+        
+    }
+
+.row-1, .row-2, .row-3, .row-4, .row-5, .row-6, .row-7, .row-8, .row-9 {
+        font-family: "CrystalUniverse-Regular.ttf";
+        font-size: 75%;
+        text-shadow: 1px 1px 0px #06276f, 1px 2px 3px #ccc;
+        color: #fff;
+}
+
+.grid {
+        display: grid;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 75%;
+        transform: translateX(-50%) translateY(-50%); /* centers grid */
+        grid-gap: 1.5em; /* vertical spacing between rows */
+        grid-template-columns: auto;
+        grid-template-areas:
+        "row-1"
+        "row-2"
+        "row-3"
+        "row-4"
+        "row-5"
+        "row-6"
+        "row-7"
+        "row-8"
+        "row-9";
+}
+
+
+
